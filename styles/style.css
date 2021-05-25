@@ -2173,6 +2173,10 @@ main {
   transition: 0.2s;
 }
 
+.verified-suggestion {
+  margin-bottom: 5px;
+}
+
 .who-to-follow-id:hover .verified-suggestion {
   text-decoration: underline;
 }
@@ -2219,38 +2223,38 @@ footer span {
   }
 }
 
-#img-modal-xqc {
-  background-color: rgba(38, 24, 31, 0.9);
+#img-modal-gordon-ramsay {
+  background-color: rgba(64, 14, 10, 0.9);
 }
 
-#img-modal-xqc .modal-close-button-box,
-#img-modal-xqc .modal-view-post-button-box {
-  background-color: rgba(38, 24, 31, 0.77);
+#img-modal-gordon-ramsay .modal-close-button-box,
+#img-modal-gordon-ramsay .modal-view-post-button-box {
+  background-color: rgba(64, 14, 10, 0.77);
 }
 
-#img-modal-xqc .modal-img-reactions {
-  background-color: rgba(38, 24, 31, 0.9);
+#img-modal-gordon-ramsay .modal-img-reactions {
+  background-color: rgba(64, 14, 10, 0.9);
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
 
-#img-modal-valkyrae-1,
-#img-modal-valkyrae-2 {
-  background-color: rgba(36, 43, 42, 0.9);
+#img-modal-discord-1,
+#img-modal-discord-2 {
+  background-color: rgba(34, 26, 64, 0.9);
 }
 
-#img-modal-valkyrae-1 .modal-close-button-box,
-#img-modal-valkyrae-1 .modal-view-post-button-box,
-#img-modal-valkyrae-2 .modal-close-button-box,
-#img-modal-valkyrae-2 .modal-view-post-button-box {
-  background-color: rgba(36, 43, 42, 0.77);
+#img-modal-discord-1 .modal-close-button-box,
+#img-modal-discord-1 .modal-view-post-button-box,
+#img-modal-discord-2 .modal-close-button-box,
+#img-modal-discord-2 .modal-view-post-button-box {
+  background-color: rgba(34, 26, 64, 0.77);
 }
 
-#img-modal-valkyrae-1 .modal-img-reactions,
-#img-modal-valkyrae-2 .modal-img-reactions {
-  background-color: rgba(36, 43, 42, 0.9);
+#img-modal-discord-1 .modal-img-reactions,
+#img-modal-discord-2 .modal-img-reactions {
+  background-color: rgba(34, 26, 64, 0.9);
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
   -webkit-transition-property: background-color;
@@ -2291,9 +2295,9 @@ footer span {
   transition-property: background-color;
 }
 
-#img-modal-xqc,
-#img-modal-valkyrae-1,
-#img-modal-valkyrae-2,
+#img-modal-gordon-ramsay,
+#img-modal-discord-1,
+#img-modal-discord-2,
 #img-modal-xaryu-1,
 #img-modal-xaryu-2 {
   height: 100vh;
@@ -2301,9 +2305,9 @@ footer span {
   padding: 0 !important;
 }
 
-#img-modal-xqc .modal-dialog,
-#img-modal-valkyrae-1 .modal-dialog,
-#img-modal-valkyrae-2 .modal-dialog,
+#img-modal-gordon-ramsay .modal-dialog,
+#img-modal-discord-1 .modal-dialog,
+#img-modal-discord-2 .modal-dialog,
 #img-modal-xaryu-1 .modal-dialog,
 #img-modal-xaryu-2 .modal-dialog {
   display: -webkit-box;
@@ -2474,13 +2478,13 @@ footer span {
   transition: 0.2s;
 }
 
-.valkyrae-1 {
-  background-image: url(https://pbs.twimg.com/media/EsO2tFaU0AIUKQ3?format=jpg&name=large);
+.discord-1 {
+  background-image: url(https://pbs.twimg.com/media/E1skSXbXEAAt-s7?format=png&name=4096x4096);
   margin-right: 2px;
 }
 
-.valkyrae-2 {
-  background-image: url(https://pbs.twimg.com/media/EsO2tGBUYAEEndz?format=jpg&name=large);
+.discord-2 {
+  background-image: url(https://pbs.twimg.com/media/E1skTKgWQAQ-O7X?format=jpg&name=4096x4096);
 }
 
 .xaryu-1 {
@@ -2492,8 +2496,8 @@ footer span {
   background-image: url(https://pbs.twimg.com/media/EswBa8jUwAI-ugz?format=jpg&name=large);
 }
 
-.xqc {
-  background-image: url(https://pbs.twimg.com/media/ErgrJunWMAEKi51?format=jpg&name=4096x4096);
+.gordon-ramsay {
+  background-image: url(https://pbs.twimg.com/media/ExZPO_9WEAAdMC1?format=jpg&name=large);
 }
 
 /* Tooltips */
@@ -2754,6 +2758,7 @@ footer span {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-right: 10px;
 }
 
 .tooltip .followed-by .followed-by-avatars-box .followed-by-avatars {
@@ -2786,39 +2791,38 @@ footer span {
 .tooltip .followed-by .followed-by-text {
   font-size: 12px;
   width: 100%;
-  margin-left: 10px;
 }
 
 @media (max-width: 568.98px) {
   .tooltip {
     display: none;
   }
-  #img-modal-xqc {
+  #img-modal-gordon-ramsay {
     background-color: #26181f;
   }
-  #img-modal-xqc .modal-close-button-box,
-  #img-modal-xqc .modal-view-post-button-box {
+  #img-modal-gordon-ramsay .modal-close-button-box,
+  #img-modal-gordon-ramsay .modal-view-post-button-box {
     background-color: #26181f;
   }
-  #img-modal-xqc .modal-img-reactions {
+  #img-modal-gordon-ramsay .modal-img-reactions {
     background-color: #26181f;
     -webkit-transition-duration: 0.5s;
             transition-duration: 0.5s;
     -webkit-transition-property: background-color;
     transition-property: background-color;
   }
-  #img-modal-valkyrae-1,
-  #img-modal-valkyrae-2 {
+  #img-modal-discord-1,
+  #img-modal-discord-2 {
     background-color: #242b2a;
   }
-  #img-modal-valkyrae-1 .modal-close-button-box,
-  #img-modal-valkyrae-1 .modal-view-post-button-box,
-  #img-modal-valkyrae-2 .modal-close-button-box,
-  #img-modal-valkyrae-2 .modal-view-post-button-box {
+  #img-modal-discord-1 .modal-close-button-box,
+  #img-modal-discord-1 .modal-view-post-button-box,
+  #img-modal-discord-2 .modal-close-button-box,
+  #img-modal-discord-2 .modal-view-post-button-box {
     background-color: #242b2a;
   }
-  #img-modal-valkyrae-1 .modal-img-reactions,
-  #img-modal-valkyrae-2 .modal-img-reactions {
+  #img-modal-discord-1 .modal-img-reactions,
+  #img-modal-discord-2 .modal-img-reactions {
     background-color: #242b2a;
     -webkit-transition-duration: 0.5s;
             transition-duration: 0.5s;
@@ -2853,9 +2857,9 @@ footer span {
     -webkit-transition-property: background-color;
     transition-property: background-color;
   }
-  #img-modal-xqc .modal-dialog,
-  #img-modal-valkyrae-1 .modal-dialog,
-  #img-modal-valkyrae-2 .modal-dialog,
+  #img-modal-gordon-ramsay .modal-dialog,
+  #img-modal-discord-1 .modal-dialog,
+  #img-modal-discord-2 .modal-dialog,
   #img-modal-xaryu-1 .modal-dialog,
   #img-modal-xaryu-2 .modal-dialog {
     display: -webkit-box;
@@ -3173,9 +3177,9 @@ footer span {
 }
 
 @media (max-width: 991.98px) {
-  #img-modal-xqc .modal-dialog,
-  #img-modal-valkyrae-1 .modal-dialog,
-  #img-modal-valkyrae-2 .modal-dialog,
+  #img-modal-gordon-ramsay .modal-dialog,
+  #img-modal-discord-1 .modal-dialog,
+  #img-modal-discord-2 .modal-dialog,
   #img-modal-xaryu-1 .modal-dialog,
   #img-modal-xaryu-2 .modal-dialog {
     display: -webkit-box;
